@@ -2,7 +2,7 @@
 
 This project builds an end-to-end, content-based machine learning system to recommend potential GitHub collaborators based on developer similarity. The system represents developers using aggregated repository metadata and applies an unsupervised similarity model to surface meaningful collaborator recommendations.
 
-The primary goal of this project is to demonstrate a complete scikit-learn ML workflow — from data cleaning and feature engineering to modeling, evaluation, and reproducible artifacts — using real GitHub data.
+The primary goal of this project is to demonstrate a complete scikit-learn ML workflow from data cleaning and feature engineering to modeling, evaluation, and reproducible artifacts using real GitHub data.
 
 ---
 
@@ -81,24 +81,32 @@ On average, recommended collaborators share nearly **50% of their tags**, indica
 Recommendations for developer: 0xFireball
 ------------------------------------------------------------
 1. dodola
+
+
    Cosine distance : 0.0544
    Shared tags     : 1
    Common tags     : ['android-studio']
    Description     : android studio+lldb binder
 
 2. lihei12345
+
+
    Cosine distance : 0.0774
    Shared tags     : 1
    Common tags     : ['android-studio']
    Description     : android android studio
 
 3. artem-zinnatullin
+
+
    Cosine distance : 0.0844
    Shared tags     : 1
    Common tags     : ['android-studio']
    Description     : jvm options for smoother android studio experience
 
 4. itkacher
+
+
    Cosine distance : 0.1694
    Shared tags     : 1
    Common tags     : ['android-studio']
