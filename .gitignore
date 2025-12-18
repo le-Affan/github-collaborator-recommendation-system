@@ -1,17 +1,33 @@
-# Python
+# Python bytecode
 __pycache__/
-*.pyc
-
-# Jupyter
-.ipynb_checkpoints/
+*.py[cod]
 
 # Virtual environments
 .venv/
-env/
 venv/
+env/
 
-# OS
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ML / Data artifacts
+*.pkl
+*.joblib
+*.npz
+*.npy
+
+# Local data files (reproducible via notebook)
+*.csv
+*.tsv
+*.parquet
+
+# OS files
 .DS_Store
+Thumbs.db
 
-# VS Code
+# IDE / Editor
 .vscode/
+.idea/
+
+# Logs
+*.log
